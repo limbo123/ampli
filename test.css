@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+
+}
+.navbar {
+	width: 100%;
+	background-color: grey; 
+	color:white;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: green;
+}
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+	
+	
+}
+
+.images img  {
+   display: inline-block;
+   
+}
+.alps{
+	 width:621px;
+	 height:500px;
+	 float: left;
+	
+	
+	}
+
+.karpaty{
+	width: 621px;
+	height: 500px;
+	float: right;
+   /*margin: 0px 0px 0px 300px;*/
+}
+
+.left{
+	box-sizing: content-box;
+	text-align: left;
+}
+.center{
+	box-sizing: content-box;
+	text-align: center;
+}
+.right{
+	
+}
+
+
+.footer{
+	width: 100%;
+	overflow: auto;
+	font-size: 20px;
+	background-color: grey;
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+table{
+	width: 100%;
+}
+
+	
+
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 70px;
+}
+
+
+	
+
+
+

@@ -59,6 +59,7 @@ body {
 	background-color: #555;
 	overflow: auto;
 	font-size: 20px;
+	height: 1000px;
 }
 table{
 	width: 100%;
